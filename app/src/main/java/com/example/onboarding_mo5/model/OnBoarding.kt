@@ -1,7 +1,7 @@
 package com.example.onboarding_mo5.model
 
 data class OnBoarding(
-    val image:String? = "",
-    val title:String? = "",
-    val description:String? = ""
+    val image: String? = null,
+    val title: String? = null,
+    val description: String? = null
 )

@@ -6,13 +6,14 @@
     app:startDestination="@id/homeFragment">
 
     <fragment
-        android:id="@+id/onBoardingFragment"
-        android:name="com.example.onboarding_mo5.OnBoardingFragment"
-        android:label="fragment_on_boarding"
-        tools:layout="@layout/fragment_on_boarding" />
-    <fragment
         android:id="@+id/homeFragment"
-        android:name="com.example.onboarding_mo5.HomeFragment"
+        android:name="com.example.onboarding_mo5.ui.home.HomeFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/onBoardingFragment"
+        android:name="com.example.onboarding_mo5.ui.onboarding.OnBoardingFragment"
+        android:label="fragment_on_boarding"
+        tools:layout="@layout/fragment_on_boarding" />
 </navigation>
